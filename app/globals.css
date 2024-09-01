@@ -17,14 +17,34 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+/* components start */
+
+input {
+  border: 1.5px solid orange;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+a {
+  color: orange;
+  text-decoration: underline;
+}
+
+/* components end */
 
 @layer utilities {
   .text-balance {
