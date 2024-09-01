@@ -18,14 +18,13 @@
 
 body {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 /* components start */
-
 input {
   border: 1.5px solid orange;
   border-radius: 0.25rem;
@@ -40,10 +39,8 @@ button {
 }
 
 a {
-  color: orange;
   text-decoration: underline;
 }
-
 /* components end */
 
 @layer utilities {
